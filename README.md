@@ -5,7 +5,7 @@
 bằng cách áp đảo nó với lưu lượng truy cập từ nhiều nguồn. Họ nhắm mục tiêu nhiều loại tài nguyên quan trọng
 từ các ngân hàng đến các trang web tin tức và đưa ra một thách thức lớn là đảm bảo mọi người có thể xuất bản và truy cập thông tin quan trọng
 
-### Dwonload & Cài đặt
+### Download & Cài đặt
 
 ### git clone https://github.com/TruongThach2006/ddos-wed-hacker
 
